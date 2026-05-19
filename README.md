@@ -5,7 +5,7 @@ Contains the code for the paper Sum of Squares Submodularity. Default solver use
 The notebooks below reproduce the feasibility statements in Example 1 and Example EC.1.
 
 - `Example1/Example1.ipynb`: checks t-sos-submodularity of F using the SumOfSquares.jl formulation. It verifies that `t=2` is infeasible and `t=3` is feasible.
-  [Example1 on Binder](https://mybinder.org/v2/gh/SOSSubmodularity/SOSSubmodularity_Revision/main?urlpath=%2Fdoc%2Ftree%2FExampleE1%2FExampleE1.ipynb)
+  [Example1 on Binder](https://mybinder.org/v2/gh/SOSSubmodularity/SOSSubmodularity_Revision/main?urlpath=%2Fdoc%2Ftree%2FExample1%2FExample1.ipynb))
 - `ExampleEC1/ExampleEC1.ipynb`: checks t-sos-submodularity of F using the explicit SDP formulation. It verifies that `t=2` is infeasible and `t=3` is feasible.
   [ExampleEC1 on Binder](https://mybinder.org/v2/gh/SOSSubmodularity/SOSSubmodularity_Revision/main?urlpath=%2Fdoc%2Ftree%2FExampleEC1%2FExampleEC1.ipynb)
 
