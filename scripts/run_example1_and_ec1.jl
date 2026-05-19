@@ -136,7 +136,7 @@ function add_pair_sdp_constraints!(model::Model, i::Int, j::Int, t::Int)
     all_masks = sort(all_subsets_mask(vars))
     N = length(z)
 
-    @variable(model, Q[1:N, 1:N], PSD)
+    Q = @variable(model, [1:m, 1:m], PSD)
 
     # Coefficients of z'Qz after reducing x_k^2 to x_k.
     coeff_expr = Dict{UInt64, AffExpr}()
